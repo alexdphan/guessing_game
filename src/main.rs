@@ -37,4 +37,6 @@ let mut bananas = 5; // mut means mutable
 // The equal sign (=) tells Rust we want to bind something to the variable now.
 
 
+// Paused here: In full, the let mut guess = String::new(); line has created a mutable variable that is currently bound to a new, empty instance of a String. Whew!
+
 
