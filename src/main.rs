@@ -21,3 +21,20 @@ fn main() {
 
     println!("You guessed: {guess}");
 }
+
+let mut guess = String::new();
+// We’ll create a variable to store the user input, like this.
+
+// Right of the equals sign is the value that guess is bound to, the result of calling String::new, a function that returns a new instance of a String.
+
+// The :: syntax in the ::new line indicates that new is an associated function of the String type.
+
+// In full, the let mut guess = String::new(); line has created a mutable variable that is currently bound to a new, empty instance of a String. Whew!
+
+let apples = 5; // immutable
+let mut bananas = 5; // mut means mutable
+
+// The equal sign (=) tells Rust we want to bind something to the variable now.
+
+
+
